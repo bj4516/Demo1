@@ -9,8 +9,32 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/editTextSerachQuery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignTop="@+id/btn_search"
+        android:layout_marginLeft="76dp"
+        android:layout_toRightOf="@+id/btn_search"
+        android:text="TextView" />
+    
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSerachQuery"
+        android:layout_below="@+id/editTextSerachQuery"
+        android:text="@string/btn_search" />
+
+    <Button
+        android:id="@+id/btnOpenActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_search"
+        android:layout_alignBottom="@+id/btn_search"
+        android:layout_alignRight="@+id/btn_search"
+        android:text="@string/btn_open_activity" />
+
+
 
 </RelativeLayout>

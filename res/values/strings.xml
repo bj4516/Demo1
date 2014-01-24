@@ -4,5 +4,8 @@
     <string name="app_name">ejemplo</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">hola andorid</string>
+    <string name="btn_search">Buscar</string>
+    <string name="btn_open_activity">Abrir otra Actividad</string>
+    <string name="title_activity_show_serch_query">ShowSerchQueryActivity</string>
 
 </resources>
